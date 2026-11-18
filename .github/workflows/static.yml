@@ -29,7 +29,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: './ANW_GitHub_Pages_V1'
+          path: './ANW_GitHub_V2/ANW_GitHub_Pages_V1'
 
       - name: Deploy to GitHub Pages
         id: deployment
